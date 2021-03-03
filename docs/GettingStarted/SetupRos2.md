@@ -21,7 +21,6 @@ title: ROS 2 Binary Installation
 Building a ROS project for Windows requires Visual Studio and the Microsoft SDKs for Windows.
 
 * [Download Visual Studio 2019](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=vs-2019)
-    * Vcpkg is used for managing dependent libraries. It requires that the English language pack be installed.
     * Include "Desktop development with C++" workload.
     * If you already have Visual Studio 2019 installed, you can [Modify Installation](https://docs.microsoft.com/en-us/visualstudio/install/modify-visual-studio?view=vs-2019)
 
@@ -56,6 +55,8 @@ Chocolatey is a package manager for Windows. It is used to make it easy to insta
         ```
         git --version
         ```
+5. Install vcpkg
+    * Install [Vcpkg](https://docs.microsoft.com/en-us/cpp/build/install-vcpkg?view=msvc-160&tabs=windows), which is used for managing dependent libraries. It requires that the English language pack be installed.     
 
 ## Installing ROS 2 Binaries
 
